@@ -13,7 +13,7 @@ public class Tower : MonoBehaviour
     [SerializeField] CircleCollider2D circleCollider;
 
     [Header("Starting Stats")]
-    [SerializeField] protected int startingATK = 1;
+    [SerializeField] protected int startingATK = 5;
     [SerializeField] protected int startingATKSPD = 1;
     [SerializeField] protected int startingATKRadius = 2;
 
@@ -49,7 +49,8 @@ public class Tower : MonoBehaviour
         Vector3 direction = (target.position - transform.position).normalized;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         Quaternion rotation = Quaternion.Euler(0f, 0f, angle - 90f);
-        Instantiate(projectilePrefab, transform.position, rotation, transform);
+        Projectile arrow = Instantiate(projectilePrefab, transform.position, rotation, transform).GetComponent<Projectile>();
+        arrow.SetATK(ATK);
     }
 
     void ProcessAttackTimer()

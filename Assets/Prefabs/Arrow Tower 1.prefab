@@ -25,6 +25,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 563995758536515527}
     - target: {fileID: 1815046699057743137, guid: 9f2c813294a8749f0a4105c952fa7c28, type: 3}
+      propertyPath: startingATK
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1815046699057743137, guid: 9f2c813294a8749f0a4105c952fa7c28, type: 3}
       propertyPath: spriteRenderer
       value: 
       objectReference: {fileID: 962707977971578307}

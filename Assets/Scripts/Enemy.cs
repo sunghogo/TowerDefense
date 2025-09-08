@@ -92,7 +92,7 @@ public class Enemy : MonoBehaviour
     {
         int damage = Mathf.Max(attackerATK - DEF, 0);
         var damageText = Instantiate(damageTextPrefab, enemyCanvas).GetComponent<FloatingText>();
-        damageText.SetText($"-{GoldDrop}");
+        damageText.SetText($"-{damage}");
         HP = Mathf.Max(HP - damage, 0);
         UpdateHpText();
         UpdateHpBar();
