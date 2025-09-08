@@ -1,0 +1,20 @@
+{
+    "asset": "9be9f21d19abc4ae892ee744c614563b",
+    "fileName": "019915a7-bc15-75f7-84e7-5bc88104202e.jpg",
+    "prompt": "dirt, ground, brown, tile",
+    "negativePrompt": "shadow, light, blurry, messy",
+    "model": "7a1d56ee-91f3-4a7f-b1ac-04a20d3283a1",
+    "modelName": "Environment Sprites",
+    "customSeed": -1,
+    "w3CTraceId": "c1c01dcfcec53b973cac21ce04b9429d",
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0
+}

@@ -1,0 +1,20 @@
+{
+    "asset": "9be9f21d19abc4ae892ee744c614563b",
+    "fileName": "019915aa-1645-7428-90de-1dcd91c29915.jpg",
+    "prompt": "pixel, dirt, ground, brown, tile, top-down",
+    "negativePrompt": "shadow, light, blurry, messy, grass, bushes, flowers",
+    "model": "7a1d56ee-91f3-4a7f-b1ac-04a20d3283a1",
+    "modelName": "Environment Sprites",
+    "customSeed": -1,
+    "w3CTraceId": "01189b6cbb6b13d32c5a155ff7fd1f73",
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0
+}
